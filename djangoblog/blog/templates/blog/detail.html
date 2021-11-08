@@ -19,7 +19,7 @@
 
                                 <p>{{post.body}}</p>
 
-                                <p>Category:{{post.category}}</small></p>
+                                <p><small>Category:<a href="{% url 'category_detail' post.category.slug %}"{{post.category}}></a></small></p>
                             
                                 <hr>
 
